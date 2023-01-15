@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="../public/css/events.css">
+    <title>Document</title>
+</head>
+<body>
+    {{>navbar}}
+    <h3 class="after_content">What we do </h3>
+    <div class="event_details">
+        {{#each output}}
+        <div class="cards">
+            <div class="img-div">
+                <img class="person_img" src="image/event/{{eventNo}}.jpg" alt="images/{{eventNo}}.jpg">
+            </div>
+            <div class="other">
+                <p>{{name}}</p>
+                <p>{{date}}</p>
+                <p>{{description}}</p>
+            </div>
+           
+    </div>
+        {{/each}}
+    </div>
+
+    {{>footer}}
+
+</body>
+</html>
+
+{{!-- <p>{{output}}</p>
+<p>{{output.length}}</p>
+{{#each output}}
+    <p>{{name}}</p>
+    <p>{{date}}</p>
+    <p>{{description}}</p>
+    <p>--------</p>
+{{/each}} --}}
+
+<style>
+.event_details{
+    margin : 15px;
+} 
+
+ .cards{
+     display: flex;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    min-width: 30%;
+
+}
+
+.person_img{
+    width: 120px;
+    /* border: 2px solid black;
+    border-radius: 50%; 
+}
+
+
+.social_platform{
+    width: 30px;
+    padding: 2px;
+}
+</style>

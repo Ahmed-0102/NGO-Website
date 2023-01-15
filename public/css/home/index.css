@@ -1,0 +1,103 @@
+/* what we do  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+.after_content{                       
+    text-align: center;
+    font-size: 60px;
+    color: #004e7e;
+    font-family: 'Noto Serif', serif;
+}
+
+/* css for card */
+.volunteer_details{
+    display: flex;
+    padding: 1% 15%;
+} 
+
+ .cards{
+    padding: 5px;
+    border: 2px solid black;
+    margin: 0 0.5%;
+    text-align: center;
+    font-family: sans-serif;
+    min-width: 30%;
+
+}
+
+.person_img{
+    width: 120px;
+    /* border: 2px solid black;
+    border-radius: 50%; */
+}
+
+.card-head {
+    color: #004e7e;
+    font-family: 'Zilla Slab', serif;
+    font-size: x-large;
+}
+
+.card-info {
+    color: brown;
+    font-family: 'Slabo 27px', serif;
+    font-size: larger;
+}
+
+.social_platform{
+    width: 40px;
+    padding: 2px;
+}
+
+.butt {
+    font-size: large;
+}
+
+.butt:hover {
+    background-color: #004e7e;
+    color: #fff;
+}
+
+/*css for counter*/
+
+.counting {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px 0;
+}
+
+.counter,.num-text{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Zilla Slab', serif;
+}
+
+.counter-container {
+    color: #004e7e;
+}
+/* css for our founder part */
+
+.founder{
+    width: 75%;
+    text-align: center;
+    border: 2px solid #000;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+
+.founder .name{
+    font-size: x-large;
+    font-weight: 700;
+    color: #004e7e;
+    font-family: 'Zilla Slab', serif;
+}
+
+.founder-info {
+    color: brown;
+    font-family: 'Slabo 27px', serif;
+    font-size: larger;
+}

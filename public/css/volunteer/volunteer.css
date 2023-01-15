@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+li a button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*
+    Main content of the page
+*/
+
+.content{
+    display: flex;
+}
+
+.form{
+    min-width: 20%;
+    margin-left: 2rem;
+    margin-right: 10px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+#heading {
+    color: #e4701d;
+}
+
+input,textarea{
+    padding: 3px;
+    margin: 5px;
+    width: 98%;
+}
+
+.form p{
+    padding: 5px;
+    font-family: 'Slabo 27px', serif;
+    font-size: larger;
+}
+
+.form h2{
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    font-size: x-large;
+}
+
+#form-submit {
+    background-color: #e4701d;
+    font-size: larger;
+}
+
+#form-submit:hover {
+    background-color: #004e7e;
+    color: #fff;
+}
+
+.before_content{
+    margin-top: 2%;
+    margin-left: 5rem;
+    color: #004e7e;
+    font-family: 'Zilla Slab', serif;
+    font-size: xx-large;
+}
+
+.ngo_info{
+    margin-top: 5px;
+    margin-left: 5rem;
+    padding-top: 5px;
+    text-align: justify;
+    color: brown;
+    font-family: 'Slabo 27px', serif;
+    font-size: larger;
+}
+
+.after_content{
+    text-align: center;
+    color: #004e7e;
+    font-family: 'Zilla Slab', serif;
+    font-size: xx-large;
+}
+
+/*      Volunteer Details       */
+
+.volunteer_details{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 2% 0px;
+    margin: auto;
+} 
+
+.vol_name {
+    font-family: 'Zilla Slab', serif;
+    font-size: x-large;
+}
+
+.cards{
+    padding: 5px;
+    margin: 0.8%;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+.cards p {
+    padding: 5px;
+    font-family: 'Slabo 27px', serif;
+    font-size: larger;
+}
+
+.person_img{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+
+.social_platform{
+    width: 35px;
+    padding: 2px;
+}
+
+
+
+.volunteer-name {
+    color: #004e7e;
+}
+
+.volunteer-info {
+    color: brown;
+}
+
+
+
+
+/* Footer */
+
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* responsive */
+
+@media (max-width:767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:574px) {
+    .footer-col {
+        width: 100%;
+    }
+}

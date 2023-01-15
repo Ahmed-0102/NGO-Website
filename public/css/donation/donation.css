@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff url(./loader/Wedges-3s-200px.gif) no-repeat center;
+    z-index: 999;
+}
+
+
+
+/* Banner */
+
+.banner {
+    background-image: url("image/donation/scenery.jpg");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.inner-container {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: whitesmoke;
+    background-color: transparent;
+    height: auto;
+    margin-top: 100px;
+}
+
+.inner-container h1 {
+    font-size: 7em;
+    background-color: transparent;
+}
+
+.inner-container h2 {
+    margin-top: 17px;
+    font-size: 1.7em;
+    text-align: center;
+    background-color: transparent;
+}
+
+.inner-container a {
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Divide in 2 col */
+
+.main-container {
+    padding: 50px 0;
+    width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.main-container .container {
+    display: flex;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+div {
+    display: block;
+}
+
+.main-container .container .leftsidedetails {
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+    padding: 20px 22px;
+    margin-right: 2%;
+}
+
+.main-container .container .leftsidedetails .donate .img {
+    width: 100%;
+    margin: 0;
+    float: inherit;
+}
+
+.main-container .container .leftsidedetails .donate .img img {
+    max-width: 100%;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.main-container .container .rightsidedetails {
+    width: 50%;
+}
+
+#form-heading {
+    color: #004e7e;
+    font-family: 'Zilla Slab', serif;
+    font-size: x-large;
+}
+
+.form-info {
+    color: brown;
+    font-family: 'Slabo 27px', serif;
+    font-size: larger;
+}
+
+@media only screen and (max-width: 769px) {
+    .main-container .container {
+        display: block;
+    }
+
+    .main-container .container .leftsidedetails,
+    .main-container .container .rightsidedetails,
+    .main-container .container .rightsidedetails .bar {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .main-container .container {
+        display: block;
+    }
+
+    .main-container .container .leftsidedetails,
+    .main-container .container .rightsidedetails,
+    .main-container .container .rightsidedetails .bar {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .main-container .container {
+        display: block;
+    }
+
+    .main-container .container .leftsidedetails,
+    .main-container .container .rightsidedetails,
+    .main-container .container .rightsidedetails .bar {
+        width: 90%;
+    }
+}
+
+
+
+#proceed:hover {
+    background-color: #004e7e;
+    color: #fff;
+}
+
+
+
+
+
+
+
+/* Amount decision section */
+
+.donationlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.donationlist li {
+    position: relative;
+    padding: 16px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.donationlist li p {
+    padding-left: 22px;
+    font-family: 'Slabo 27px', serif;
+    font-size: large;
+}
+
+.donationlist .radiobox {
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.donationlist li p {
+    font-size: 20px;
+}
+
+.donationlist .lastotheramt .radiobox .amtlast input {
+    width: 200px;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}

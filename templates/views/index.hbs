@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home/carousel.css">
+    <link rel="stylesheet" href="css/home/index.css">
+    <link rel="stylesheet" href="css/home/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <!-- header -->
+    {{>homenavbar}}
+
+
+    <!-- carousel  -->
+    <div class="carousel_css">
+        <div class="slider">
+              <div class="slide active">
+                <img src="image/index/carousel/1.jpg" alt="">
+                <div class="info">
+                  <h2>Strengthening systems to enable social protection</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="image/index/carousel/2.jpg" alt="">
+                <div class="info">
+                  <h2>Empowering marginalised women and girls</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="image/index/carousel/3.jpg" alt="">
+                <div class="info">
+                  <h2>Building capacities of communities</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="image/index/carousel/4.jpg" alt="">
+                <div class="info">
+                  <h2>Mountain River</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="slide">
+                <img src="image/index/carousel/5.jpg" alt="">
+                <div class="info">
+                  <h2>Egypt Pyramids</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="navigation">
+                <i class="fas fa-chevron-left prev-btn"></i>
+                <i class="fas fa-chevron-right next-btn"></i>
+              </div>
+              <div class="navigation-visibility">
+                <div class="slide-icon active"></div>
+                <div class="slide-icon"></div>
+                <div class="slide-icon"></div>
+                <div class="slide-icon"></div>
+                <div class="slide-icon"></div>
+              </div>
+            </div>
+      </div>
+
+    <!-- Main Content of the page -->
+
+    <!-- cards :- what we do -->
+    <h3 class="after_content">What we do </h3>
+    <div class="volunteer_details">
+        <div class="cards">
+            <img class="person_img" src="image/index/card/life.png" alt="Volunteer_image">
+            <h3 class="card-head">Financial Support</h3>
+            <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, sed quidem! Officia eius temporibus rerum architecto, ea vero ut tenetur ipsa dolore, doloribus omnis ullam.</p>
+            <button class="butt">Read More</tton>            
+            
+        </div>
+        <div class="cards">
+            <img class="person_img"  src="image/index/card/donate.png" alt="Volunteer_image">
+            <h3 class="card-head">Foods and Medicines</h3>
+            <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, sed quidem! Officia eius temporibus rerum architecto, ea vero ut tenetur ipsa dolore, doloribus omnis ullam.</p>
+            <button class="butt">Read More</button>
+        </div>
+        <div class="cards">
+            <img class="person_img"  src="image/index/card/donate clothes.jpg" alt="Volunteer_image">
+            <h3 class="card-head">Donation of Cloths</h3>
+            <p class="card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, sed quidem! Officia eius temporibus rerum architecto, ea vero ut tenetur ipsa dolore, doloribus omnis ullam.</p>
+            <button class="butt">Read More</button>
+        </div>
+    </div>
+
+    <!--donation count-->
+    <div class="counting">
+        <div class="counter-container">
+            <i class="fas fa-users fa-7x"></i>
+            <div class="counter" data-target="100"></div> 
+            <span class="num-text">Number of Volunteer</span>
+        </div>
+    
+        <div class="counter-container">
+            <i class="fas fa-users fa-7x"></i>
+            <div class="counter" data-target="800"></div> 
+            <span class="num-text">Number of people benefited </span>
+        </div> 
+    
+        <div class="counter-container">
+            <i class="fas fa-users fa-7x"></i>
+            <div class="counter" data-target="250"></div> 
+            <span class="num-text" >Number of Donor</span>
+        </div>
+    </div>
+
+    <!-- Our founder  -->
+    <div class="founder">
+        <img class="person_img" src="image/index/person.jpg" alt="Volunteer_image">
+        <p class="name">Name of Volunteer</p>
+        <p class="founder-info">We are a not-for-profit organisation that builds capacity of communities to ensure empowerment for marginalised women and girls. Our sustainable and holistic interventions in Health, Livelihood, Education and Disaster Relief & Resilience, provide innovative solutions to deep-rooted development problems. Our work has become even more urgent and necessary, as millions of people around the country are battling Covid-19. our NGO has been responding promptly to the pandemic with the support of its domestic and international donors, working closely with state governments & local administrations to support marginalised communities</p>
+        <p class="name" >Connect with him</p>
+        <a href="#" target="_blank"> <img class="social_platform" src="image/index/social/facebook.png" alt="facebook"></a>
+        <a href="#" target="_blank"> <img class="social_platform" src="image/index/social/twitter.png" alt="twitter"></a>
+        <a href="#" target="_blank"><img class="social_platform" src="image/index/social/instagram.png" alt="face"></a>
+        <a href="#" target="_blank"><img class="social_platform" src="image/index/social/linkedin.png" alt="link"></a>
+    </div>
+
+    <!-- contact-us -->
+    {{>contact}}
+
+
+
+    <!-- footer -->
+    {{>footer}}
+
+    <script src="javascript/home/carousel.js"></script>
+    <script src="javascript/home/home.js"></script>
+
+</body>
+</html>

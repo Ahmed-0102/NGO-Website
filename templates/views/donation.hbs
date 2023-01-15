@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/donation/donation.css">
+    <link rel="stylesheet" href="css/donation/button.css">
+    <link rel="stylesheet" href="css/donation/payment-form.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Donation Page</title>
+</head>
+<body onload="loader()">
+    <div id="loading"></div>
+    {{>navbar}}
+
+
+    <!-- Banner area -->
+    <div class="banner" style="background-image: url('image/donation/banner.jfif'); background-repeat: no-repeat;">
+        <div class="inner-container">
+            <h1>Please Connect with Us </h1>
+            <h2>You can donate here</h2>
+            <a href="#"><button>Donate</button></a>
+        </div>
+    </div>
+    <br>
+
+
+
+    <div class="main-container">
+        <div class="container">
+
+        
+            <!-- Information related to donation -->
+            <div class="leftsidedetails column">
+                <div class="donate">
+                    <div class="img">
+                        <img src="image/donation/scenery.jpg" alt="img">
+                    </div>
+                
+                    <p class="form-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A corrupti libero possimus neque! Consectetur mollitia in molestiae est cupiditate voluptatibus tenetur quas accusamus quibusdam quos dolor minima ea, rerum dolorum accusantium voluptate nostrum nobis beatae atque hic suscipit cum distinctio! Cupiditate ullam beatae impedit facere aut dolores debitis maxime, animi voluptatem quod quo. Laudantium quis delectus reiciendis architecto cum eius aspernatur commodi nulla, similique obcaecati et voluptates atque iure, expedita aut ipsam enim? Possimus, repellat? Tenetur necessitatibus ipsum sint nostrum blanditiis ex sed amet velit iste, ipsam, est sunt iusto nisi qui. Beatae velit dolorem dolore. Totam quidem culpa ea necessitatibus? Perspiciatis ad minus repellat unde voluptatibus fuga velit alias doloribus laborum officia neque sapiente in, necessitatibus qui error odit mollitia earum officiis, exercitationem eos fugiat cumque assumenda? Assumenda quos tempore tempora odio amet ab, exercitationem nobis consequuntur nam dicta fugiat consectetur pariatur sapiente sunt animi nostrum nesciunt veritatis! Debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, minus? A reprehenderit possimus cum id consectetur eligendi, itaque earum natus et ex veritatis asperiores dignissimos praesentium odio molestias ad minus eius. Est perspiciatis, rem ullam architecto omnis ad. Nulla culpa sunt saepe quibusdam odio vel placeat voluptas autem vitae. Nostrum cumque quos voluptas, ullam ipsa voluptate? Autem veniam repudiandae ipsum omnis id deserunt architecto debitis? Non officiis mollitia explicabo laudantium veritatis. Officia maxime cumque voluptatem dolorem accusamus commodi nisi tempore quasi cupiditate nesciunt. Incidunt fugiat illum iste nesciunt, odit ullam vitae blanditiis, quasi a quia voluptatibus, distinctio quaerat sit ab.</p>
+                </div>
+            </div>
+            
+        
+
+
+
+            <!-- Donation area -->
+            <section class="rightsidedetails">
+
+
+                {{!-- <div class="bar">
+                    <div class="step">
+                        <div class="bullet">
+                        </div>
+                        <p>Education</p>
+                    </div>
+                    <!-- <div class="step">
+                        <em>
+                            <div class="bullet">
+                                
+                            </div>
+                        </em>
+                        <p> DISASTER PREPAREDNESS & RESPONSE</p>
+                    </div> -->
+                    <div class="step">
+                        <div class="bullet">
+                            
+                        </div>
+                        <p>HEALTH</p>
+                    </div>
+                    <div class="step">
+                        <div class="bullet">
+                            
+                        </div>
+                        <p>LIVELIHOOD</p>
+                    </div>
+                </div> --}}
+
+                <!-- Amount decision section -->
+                <section class="form">
+                    <h1 id="form-heading">Education</h1>
+                    <p class="form-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi recusandae harum cumque quae tempore aliquam, labore numquam et quo voluptates dolor exercitationem quibusdam? Neque et non necessitatibus temporibus! Ratione provident reprehenderit iste ipsa officiis ut. Nobis dicta perferendis culpa incidunt quasi, est, ducimus possimus ratione officiis quos ut illo illum reprehenderit debitis laudantium quam eius repellat architecto iste adipisci facere. Harum mollitia porro incidunt illum? Velit dolorem pariatur cupiditate tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem commodi beatae laudantium dicta, recusandae minima omnis officia quae animi doloribus numquam unde nulla modi, dolor magnam dolorum eius quaerat deserunt? Ab ad maxime temporibus dolorum. Accusantium laboriosam velit est esse dolorum perferendis adipisci nihil maiores eum unde, sit, similique repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi debitis voluptas iste consequatur quasi! Dolor?</p>
+                        
+                    <ul class="donationlist">
+                        <li>
+                            <div class="radiobox">
+                                <label for="2-dontation1">
+                                    <em class="is-checked">
+                                        <input name="price" value="5000" id="2-dontation1" checked="" type="radio" onchange="active(0)">
+                                    </em>
+                                    INR 5000
+                                </label>
+                            </div>
+                            <p>
+                                for providing one hospital bed for one month in make-shift COVID facility
+                            </p>
+                        </li>
+                        <li>
+                            <div class="radiobox">
+                                <label for="2-dontation2">
+                                    <em>
+                                        <input name="price" value="2500" id="2-dontation2" type="radio" onchange="active(0)">
+                                    </em>
+                                    INR 2500
+                                </label>
+                            </div>
+                            <p>for providing essential medical consumables and PPE kits to make-shift COVID facilities
+                            </p>
+                        </li>
+                        <li>
+                            <div class="radiobox">
+                                <label for="2-dontation3">
+                                    <em>
+                                        <input name="price" value="1500" id="2-dontation3" type="radio" onchange="active(0)">
+                                    </em>
+                                    INR 1500
+                                </label>
+                            </div>
+                            <p>for raising awareness around COVID appropriate behaviour in communities</p>
+                        </li>
+                        <li class="lastotheramt">
+                            <div class="inputbox">
+                                <span class="radiobox">
+                                    <label for="2-dontation-custom">
+                                        <em id="amtlast">
+                                            <input type="radio" name="price" value="" class="otheramtradio" id="2-dontation-custom" onchange="active(1)">
+                                        </em>
+                                    </label>
+                                </span>
+                                <input id="otheramt" name="otheramt" placeholder="Any other amount" type="text" onkeypress="return isNumber(event)" value="" class="otheramttext">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <button id="proceed" onclick="addrow()">Proceed</button>
+                </section>
+                
+            </section>
+        </div>
+    </div>
+
+
+    <div class="parent"></div>
+
+    <br>
+
+
+    {{>footer}}
+
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+
+        var preloader = document.getElementById('loading');
+
+        function loader() {
+            preloader.style.display = 'none';
+        }
+
+        function active(x) {
+            
+            if(x == 1) {
+                console.log('1');
+                document.getElementById('otheramt').disabled = false;
+            }
+            else {
+                console.log('0')
+                {{!-- document.getElementById('otheramt').disabled = true; --}}
+            }
+        }
+
+        function addrow() {
+            let price;
+            if(document.getElementById('2-dontation1').checked) {
+                price = document.getElementById('2-dontation1').value;
+            } else if(document.getElementById('2-dontation2').checked) {
+                price = document.getElementById('2-dontation2').value;
+            } else if(document.getElementById('2-dontation3').checked) {
+                price = document.getElementById('2-dontation3').value;
+            } else if(document.getElementById('2-dontation-custom').checked) {
+                price = document.getElementById('otheramt').value;
+            }
+            console.log(price);
+
+            if(price >=1000) {
+                const division = document.createElement('div');
+                division.className = 'account';
+                division.innerHTML = `
+
+                    <h2>Payment Form</h2>
+                    <form action="/order" method="POST" id="myForm">
+                        <!-- Account information -->
+                        <h4>Account</h4>
+                        <input type="number" style="display: none" id="form-price">
+
+                        <div class="input_group">
+                            <div class="input_box">
+                                <input type="text" placeholder="First Name"  class="name" pattern="^[a-zA-Z\s]+$">
+                                <i class="fa fa-user icon"></i>
+                            </div>
+                            <div class="input_box">
+                                <input type="text" placeholder="Last Name"  class="name" pattern="^[a-zA-Z\s]+$">
+                                <i class="fa fa-user icon"></i>
+                            </div>
+                        </div>
+                        <div class="input_group">
+                            <div class="input_box">
+                                <input type="email" placeholder="Email Address" class="name" id="email" pattern="^[A-Za-z0-9._]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$">
+                                <i class="fa fa-envelope icon"></i>
+                            </div>
+                            <div class="input_box">
+                                <input type="date" class="name">
+                                <i class="fa fa-calendar icon"></i>
+                            </div>
+                        </div>
+                        <div class="input_group">
+                            <div class="input_box">
+                                <input type="text" placeholder="Phone Number" class="name" id="number" pattern="^[6789][0-9]{9}">
+                                <i class="fas fa-phone-alt icon"></i>
+                            </div>
+                            <div class="input_box">
+                                <input type="text" placeholder="Pan Card Number" class="name" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}">
+                                <i class="far fa-id-card icon"></i>
+                            </div>
+                        </div>
+
+                        <!-- DOB & Gender Start -->
+
+                        <div class="input_group">
+                            <div class="input_box">
+                                <h4>Date Of Birth</h4>
+                                <input type="number" placeholder="DD" class="dob" min="1" max="31">
+                                <input type="number" placeholder="MM" class="dob" min="1" max="12">
+                                <input type="number" placeholder="YYYY" class="dob" min="1960" max="2015">
+                            </div>
+                            <div class="input_box">
+                                <h4>Gender</h4>
+                                <input type="radio" name="gender" class="radio" id="b1" checked>
+                                <label for="b1">Male</label>
+                                <input type="radio" name="gender" class="radio" id="b2">
+                                <label for="b2">Female</label>
+                            </div>
+                        </div>
+
+                        <!-- DOB & Gender End -->
+
+
+                        <div class="input_group">
+                            <div class="input_box">
+                                <input type="text" placeholder="Address" class="name" pattern="^(?!d+!$)(?:[a-zA-Z0-9][a-zA-Z0-9 &\-\/.]*)?$">
+                                <i class="fa fa-map-marker-alt icon" aria-hidden="true"></i>
+                            </div>
+                            <!-- <div class="input_box">
+                                <input type="text" placeholder="Address2" required class="name">
+                                <i class="fa fa-map-marker-alt icon" aria-hidden="true"></i>
+                            </div> -->
+                        </div>
+                        <div class="input_group">
+                            <div class="input_box">
+                                <input type="text" placeholder="City" class="name" pattern="([A-Z]\w+\b)">
+                                <i class="fas fa-city icon"></i>
+                            </div>
+                            <div class="input_box">
+                                <select name="states" class="name">
+                                    <option value="">Select State</option>
+                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                    <option value="Assam">Assam</option>
+                                    <option value="Bihar">Bihar</option>
+                                    <option value="Chandigarh">Chandigarh</option>
+                                    <option value="Chhattisgarh">Chhattisgarh</option>
+                                    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                    <option value="Daman and Diu">Daman and Diu</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Lakshadweep">Lakshadweep</option>
+                                    <option value="Puducherry">Puducherry</option>
+                                    <option value="Goa">Goa</option>
+                                    <option value="Gujarat">Gujarat</option>
+                                    <option value="Haryana">Haryana</option>
+                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                    <option value="Jharkhand">Jharkhand</option>
+                                    <option value="Karnataka">Karnataka</option>
+                                    <option value="Kerala">Kerala</option>
+                                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Manipur">Manipur</option>
+                                    <option value="Meghalaya">Meghalaya</option>
+                                    <option value="Mizoram">Mizoram</option>
+                                    <option value="Nagaland">Nagaland</option>
+                                    <option value="Odisha">Odisha</option>
+                                    <option value="Punjab">Punjab</option>
+                                    <option value="Rajasthan">Rajasthan</option>
+                                    <option value="Sikkim">Sikkim</option>
+                                    <option value="Tamil Nadu">Tamil Nadu</option>
+                                    <option value="Telangana">Telangana</option>
+                                    <option value="Tripura">Tripura</option>
+                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                    <option value="Uttarakhand">Uttarakhand</option>
+                                    <option value="West Bengal">West Bengal</option>   
+                                    <option value="">None</option>   
+                                </select>
+                                <i class="fa fa-university icon"></i>
+                            </div>
+                            <div class="input_box">
+                                <input type="number" placeholder="Pincode" required class="name" min="110000" max="999999">
+                                <i class="fas fa-map-marker-alt icon"></i>
+                            </div>
+                        </div>
+                        <!-- Account Information End -->
+
+
+                        <div class="donate-btn">
+                            <button class="donateformbtn" id="rzp-button1" onclick="payment()">
+                                <span> Continue 
+                                    <i class="fa fa-caret-right"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <span class="cancel-sec">
+                            OR
+                            <a href="#">Cancel</a>
+                        </span>
+
+                    </form>
+                `;
+
+                document.getElementsByClassName('parent')[0].append(division);
+                document.getElementById('form-price').value = price;
+                document.getElementById('proceed').disabled = true;                
+            }else {
+                console.log("Enter amount greater then 1000");
+            }
+        }
+
+        function payment() {            
+            axios.post('/order').then((info) => {
+                var options = {
+                    "key": "rzp_test_JKL4zDCLQdJgPk", // Enter the Key ID generated from the Dashboard
+                    "name": "NGO Co-op",
+                    "description": "Test Transaction",
+                    "image": "https://example.com/your_logo",
+                    "order_id": info.data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+                    "callback_url": "/is-order-complete",
+                    "theme": {
+                        "color": "#3399cc"
+                    }
+
+                };
+
+                let rzp1 = new Razorpay(options);
+                document.getElementById('rzp-button1').onclick = function(e){
+                    rzp1.open();
+                    e.preventDefault();
+                }
+            })
+        }
+
+    </script>
+</body>
+</html>

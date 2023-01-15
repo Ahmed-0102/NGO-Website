@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 10%;
+    background-color: #e4701d;
+}
+
+header .home {
+    margin-right: auto;
+}
+
+.icon{
+    cursor: pointer;
+    width: 50px;
+    margin: 0;
+    margin-right: auto;
+}
+
+.nav_bar{
+    list-style: none;
+}
+ 
+.nav_bar li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_bar li a{
+    transition: all 0.3s ease 0s;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-size: x-large;
+}
+
+.nav_bar li a:hover{
+    background-color: #fba704;
+}
+
+li a button{
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Zilla Slab', serif;
+    font-size: x-large;
+}
+
+button:hover {
+    color: #0088a9;
+    background-color: white;
+}
+
+.btn-group {
+    background-color:cornsilk;
+font-style: italic;
+left: 37%;
+
+}

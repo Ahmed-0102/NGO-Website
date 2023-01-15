@@ -1,0 +1,94 @@
+.main-container .container .rightsidedetails .bar {
+    display: flex;
+    margin: 40px 0;
+}
+
+.main-container .container .rightsidedetails .bar .step {
+    position: relative;
+    text-align: center;
+    width: 90%;
+}
+
+.main-container .container .rightsidedetails .bar .step:hover {
+    cursor: pointer;
+}
+
+.main-container .container .rightsidedetails .bar .step p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+
+
+.main-container .container .rightsidedetails .bar .step .bullet {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    background-color: orange;
+}
+
+
+.main-container .container .rightsidedetails .bar .step:last-child .bullet:before,
+.main-container .container .rightsidedetails .bar .step:last-child .bullet:after {
+    display: none;
+}
+
+.main-container .container .rightsidedetails .bar .step .bullet:before,
+.main-container .container .rightsidedetails .bar .step .bullet:after {
+    position: absolute;
+    content: '';
+    bottom: 45px;
+    right: -63px;
+    height: 3px;
+    width: 125px;
+    background: #262626;
+}
+
+.main-container .container .rightsidedetails .bar .step .bullet:after {
+    background: #d43f8d;
+}
+
+.main-container .container .rightsidedetails .bar .step span {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-container .container .rightsidedetails .bar .step .check {
+     position: absolute;
+}
+
+
+.main-container .container .rightsidedetails {
+    background-color: #fff;
+    width: 500px;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.main-container .container .rightsidedetails h2 {
+    background-color: #fcfcfc;
+    color: #21cdd3;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    border: 1px dashed #21cdd3;
+}
+
+.main-container .container .rightsidedetails h4 {
+    padding-bottom: 5px;
+    color: #21cdd3;
+}
